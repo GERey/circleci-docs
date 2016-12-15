@@ -2,6 +2,10 @@ machine:
   environment:
     NOKOGIRI_USE_SYSTEM_LIBRARIES: true # speeds up installation of html-proofer
 
+checkout:
+  post:
+    - git merge master
+
 dependencies:
   pre:
     #- scripts/install-hugo.sh

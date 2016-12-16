@@ -55,7 +55,7 @@ You can control the container image used to run builds with the `CIRCLE_CONTAINE
 
 #### Using the Trusty image
 
-CircleCI builders can use the same Trusty (Ubuntu 14.04) build container image available on circleci.com by specifying `CIRCLE_CONTAINER_IMAGE_ID=circleci-trusty-container_0.0.575`. This image includes the languages and packages specified [here](https://circle-artifacts.com/gh/circleci/image-builder/575/artifacts/0/tmp/circle-artifacts.RbPnATN/versions.json).
+CircleCI builders can use the same Trusty (Ubuntu 14.04) build container image available on circleci.com by specifying `CIRCLE_CONTAINER_IMAGE_ID=circleci-trusty-container_0.0.575`. This image includes the languages and packages specified [here](hts://om/gh/circleci/image-builder/575/artifacts/0/tmp/circle-artifacts.RbPnATN/versions.json).
 
 #### Using a custom image
 

@@ -4,6 +4,8 @@ machine:
 
 checkout:
   post:
+    - rm -rf $CIRCLE_PROJECT_REPONAME
+    - git clone $CIRCLE_REPOSITORY_URL
     - git merge master
 
 dependencies:

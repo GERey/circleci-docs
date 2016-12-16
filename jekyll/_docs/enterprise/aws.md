@@ -28,7 +28,7 @@ bin/terraform apply</pre>
   </li>
   <li>Fill out the settings form in the web UI:
     <ol type="a">
-      <li>Go to the URL output from Terraform, click "Get Started", then click on "Advanced", "Add exception...", or whatever mechanism your browser provides to trust the temporary  SSL cert</li>
+      <li>G output from Terraform, click "Get Started", then click on "Advanced", "Add exception...", or whatever mechanism your browser provides to trust the temporary  SSL cert</li>
       <li>Use a self-signed certificate, upload your license, and secure the console with a password</li>
       <li>Enter the current machine's IP address or a hostname that you have configured</li>
       <li>Create a GitHub developer application at <code>&lt;github base url&gt;/settings/applications/new</code>, set the callback URL to <code>&lt;circleci enterprise base url&gt;/auth/github</code>, and input the key and secret back in the settings page</li>

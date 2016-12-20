@@ -1,6 +1,6 @@
 # Contributing to CircleCI Docs
 
-Thank you for your interest in contributing. Getting started is fairly simple.
+you for your interest in contributing. Getting started is fairly simple.
 
 ## Add or fix a doc
 [Fork this repository](https://github.com/circleci/circleci-docs#fork-destination-box), clone your fork to your local machine, work on your contribution in a branch, 

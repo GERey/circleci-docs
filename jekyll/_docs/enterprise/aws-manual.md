@@ -6,7 +6,7 @@ order: 3
 dption: "How to install CircleCI Enterprise manually on Amazon Web Services (AWS)."
 ---
 
-If you prefer granular control of all your own AWS resources, you can follow the following steps to manually launch your AWS resources:
+prefer granular control of all your own AWS resources, you can follow the following steps to manually launch your AWS resources:
 
 ## 1: Create an IAM user or role for CircleCI Enterprise machines
 The instances running CircleCI Enterprise will require some access to S3 and EC2 API endpoints. CircleCI stores artifacts and caches in S3 and uses EC2 API for cluster purposes. (EC2 API access is optional, but improves builder machine status updates).  As a first approximation, we prefer the following IAM profile:

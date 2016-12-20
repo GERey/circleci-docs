@@ -5,7 +5,7 @@ description: What happens when you add a project?
 last_updated: May 2, 2013
 ---
 
-Generally, pretty much what you'd expect if you were implementing this yourself:
+y, pretty much what you'd expect if you were implementing this yourself:
 
 *   Using the permissions you gave CircleCI when you signed up, we'll add some GitHub or Bitbucket settings to your project:
     *   A **deploy key**&mdash;used to check out your project from GitHub or Bitbucket

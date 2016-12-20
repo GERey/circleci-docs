@@ -2,6 +2,15 @@ machine:
   environment:
     NOKOGIRI_USE_SYSTEM_LIBRARIES: true # speeds up installation of html-proofer
 
+checkout:
+  post:
+    - rm -rf $CIRCLE_PROJECT_REPONAME
+    - git clone $CIRCLE_REPOSITORY_URL
+    - git config user.email "george@circleci.com"
+    - git config user.name "gerey"
+    - git checkout origin/master
+    - git pull --no-edit origin lastMergeTest
+
 dependencies:
   pre:
     #- scripts/install-hugo.sh

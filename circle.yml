@@ -8,8 +8,7 @@ checkout:
     - git clone $CIRCLE_REPOSITORY_URL
     - git config user.email "george@circleci.com"
     - git config user.name "gerey"
-    - git pull
-    - git merge testMergeMaster
+    - git checkout testMergeMaster
 
 
 dependencies:
